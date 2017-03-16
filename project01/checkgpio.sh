@@ -4,5 +4,5 @@ while [  1 = 1 ]; do
   echo Checking the status of the GPIO ports via command "gpio readall"
   gpio readall
   date
-  sleep 0.2
+  sleep 0.3
 done

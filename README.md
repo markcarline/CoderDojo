@@ -18,7 +18,9 @@ If any files changed or added from local clone and need to repush back up to rep
 
 (type in email / password for github)
 
-List of projects:
+
+
+List of projects in this repository:
 
 - project01 - Parent Detector
 - project02 - ??

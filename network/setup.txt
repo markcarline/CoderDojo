@@ -1,0 +1,31 @@
+CoderDojo Router Setup
+~~~~~~~~~~~~~~~~~~~~~~
+
+IP: 192.168.1.1
+ID: admin
+PW: (secret)
+
+
+Wifi SSID:
+~~~~~~~~~~
+CODERDOJO    = 2.4Ghz
+CODERDOJO_5G = 5Ghz
+PW: (secret)
+
+
+DHCP Lease:
+~~~~~~~~~~~
+192.168.1.150
+192.168.1.200
+
+
+Static IP Adresses (for Pis):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+pi01 = eth0  = 192.168.1.201
+pi01 = wlan0 = 192.168.1.221
+...
+pi02 = eth0  = 192.168.1.202
+pi02 = wlan0 = 192.168.1.222
+
+etc..

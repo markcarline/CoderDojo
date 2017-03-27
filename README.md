@@ -24,6 +24,8 @@ If any files changed or added from local clone and need to repush back up to rep
 
 Based on : https://www.raspberrypi.org/learning/parent-detector/
 
-- project02 - ??
+- project02 - Python Projects
+
+Based on own developed examples.
 
 - project03 - etc...

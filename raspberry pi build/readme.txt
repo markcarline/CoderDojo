@@ -12,7 +12,7 @@ Release notes:http://downloads.raspberrypi.org/raspbian/release_notes.txt
 2) Burnt IMG file to Master 8GB MicroSD card labeled as "00"
 
 3) Booked up and changed the following (via Preferences / Raspberry PI configuration):
-- Hostname to "pi00" (via
+- Hostname to "pi00"
 - Enabled Camera, SSH and VNC
 - Changed the default password for "pi" ID from "raspberry" to password" (to stop ssh warning messages)
 

@@ -23,3 +23,10 @@ git clone https://github.com/markcarline/CoderDojo CoderDojo
 5) Created backup of MicroSD card image as:
 CoderDoJo_Build_v2-00.img
 
+6) Created a world in Minecraft / added "project03" as magic door mat:
+- Start Minecraft / Start game / Create New
+- Created a wall with 3x doors and 3x "matts" (Red / Yellow and Green)
+- Tested with project03 that these work.
+
+7) Created backup of MicroSD card image as:
+CoderDoJo_Build_v2-01.img

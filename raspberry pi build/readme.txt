@@ -13,20 +13,17 @@ Release notes:http://downloads.raspberrypi.org/raspbian/release_notes.txt
 
 3) Booted up and changed the following (via Preferences / Raspberry PI configuration):
 - Hostname to "pi00"
-- Enabled Camera, SSH and VNC
+- Enabled Camera & SSH (But not VNC due to known issue with taskbar not appearing in "2017-08-16-raspbian-stretch.img")
 - Changed the default password for "pi" ID from "raspberry" to "password" (to stop ssh warning messages)
 
 4) Synced up current CoderDojo repository via:
 cd /home/pi
 git clone https://github.com/markcarline/CoderDojo CoderDojo
 
-5) Created backup of MicroSD card image as:
-CoderDoJo_Build_v2-00.img
-
-6) Created a world in Minecraft / added "project03" as magic door mat:
+5) Created a world in Minecraft for "project03" as magic door mat:
 - Start Minecraft / Start game / Create New
-- Created a wall with 3x doors and 3x "matts" (Red / Yellow and Green)
+- Created a wall with 3x doors and 3x mats (Red / Yellow and Green)
 - Tested with project03 that these work.
 
-7) Created backup of MicroSD card image as:
-CoderDoJo_Build_v2-01.img
+6) Created backup of "00" MicroSD card image as:
+CoderDoJo_Build_v3-00.img

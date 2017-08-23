@@ -18,9 +18,9 @@ LED_RED=27
 
 # Setup some constants for our world
 # This is the RED mat:
-HOME_X_RED = 33
-HOME_Y_RED = 0
-HOME_Z_RED = -32
+HOME_X_RED = 14
+HOME_Y_RED = 10
+HOME_Z_RED = 3
 
 # Setup the GPIO ports:
 GPIO.setmode(GPIO.BCM)

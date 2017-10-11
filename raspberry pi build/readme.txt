@@ -27,3 +27,22 @@ git clone https://github.com/markcarline/CoderDojo CoderDojo
 
 6) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v3-00.img
+
+7) Updated build created, added:
+
+a) connected to CODERDOJO wifi / router
+
+b) Update raspbian build via:
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+c) Added support for the speaker:
+sudo apt install pt-speaker
+
+d) Refreshed this CoderDojo repository via:
+cd /home/pi
+rm -r CoderDojo
+git clone https://github.com/markcarline/CoderDojo CoderDojo
+
+8) Created backup of "00" MicroSD card image as:
+CoderDoJo_Build_v3-01.img

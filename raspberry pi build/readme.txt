@@ -46,3 +46,9 @@ git clone https://github.com/markcarline/CoderDojo CoderDojo
 
 8) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v3-01.img
+
+NOTE:  If you have problems booting the image using a normal HDMI display (rather than the PiTop) edit the config.txt file on the SD card and set:
+
+hdmi_group=2
+hdmi_mode=16
+

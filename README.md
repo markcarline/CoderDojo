@@ -29,3 +29,12 @@ Based on own developed examples.
 - project03 - Minecraft "Magic doormat"
 Based on example in book called "Adventures in minecraft"
 https://www.amazon.co.uk/Adventures-Minecraft-David-Whale/dp/111894691X
+
+- project04 - 3D Xmas Tree & sample code in Python
+Taken from thepihut.com as per:
+https://thepihut.com/products/3d-xmas-tree-for-raspberry-pi
+
+- project05 - Four Letter pHAT from Pimoroni
+Some test / sample code to drive:
+https://shop.pimoroni.com/products/four-letter-phat
+

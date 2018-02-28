@@ -52,3 +52,13 @@ NOTE:  If you have problems booting the image using a normal HDMI display (rathe
 hdmi_group=2
 hdmi_mode=16
 
+9) Created backup of "00" MicroSD card image as:
+CoderDojo_Build_v3-03.img
+with changes:
+- Backup of minecraft world via commands:
+
+cd /home/pi/.minecraft/games/com.mojang/minecraftWorlds
+cp -r world world.backup
+
+To delete current "world" Minecraft world & restore from world.backup use new script in
+/home/pi/CoderDojo/utils/resetworld.sh

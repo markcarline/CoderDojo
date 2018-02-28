@@ -38,3 +38,6 @@ https://thepihut.com/products/3d-xmas-tree-for-raspberry-pi
 Some test / sample code to drive:
 https://shop.pimoroni.com/products/four-letter-phat
 
+- project06 - Ceaser Cipher
+
+

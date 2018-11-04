@@ -1,0 +1,2 @@
+Samples taken from github:
+https://github.com/RyanHuynh/PianoSamples

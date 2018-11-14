@@ -19,7 +19,7 @@ G3 - g - Pepper
 
 A3 - down - Apple
 
-Bb3 - w - Tangerine
+Bb3 - w - Potato
 
 B3 - left - Banana
 

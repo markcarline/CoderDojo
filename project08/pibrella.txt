@@ -4,5 +4,5 @@ git clone http://github.com/pimoroni/pibrella
 
 To install:
 
-cd pibrella\library
+cd pibrella/library
 sudo python setup.py install

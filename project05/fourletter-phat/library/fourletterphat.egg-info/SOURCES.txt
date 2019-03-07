@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+fourletterphat/HT16K33.py
+fourletterphat/__init__.py
+fourletterphat/alphanum4.py
+fourletterphat/i2c_bus.py
+fourletterphat.egg-info/PKG-INFO
+fourletterphat.egg-info/SOURCES.txt
+fourletterphat.egg-info/dependency_links.txt
+fourletterphat.egg-info/top_level.txt

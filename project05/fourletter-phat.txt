@@ -1,0 +1,15 @@
+Cloned from:
+
+git clone http://github.com/pimoroni/fourletter-phat
+
+To install:
+
+cd fourletter-phat/library
+sudo python3 setup.py install
+
+Install notes taken from:
+https://github.com/pimoroni/fourletter-phat
+
+examples are then in:
+
+/home/pi/CoderDojo/project05/fourletter-phat/examples

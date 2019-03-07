@@ -1,0 +1,98 @@
+Metadata-Version: 1.1
+Name: Pibrella
+Version: 1.4.0
+Summary: A module to control the Pibrella Raspberry Pi Addon Board
+Home-page: http://www.pibrella.com
+Author: Philip Howard
+Author-email: phil@gadgetoid.com
+License: MIT
+Description: Learn more: http://pibrella.com
+        1.4.0
+        -----
+        
+        * Initial release to apt
+        
+        1.3.1
+        -----
+        
+        * Fixed Manifest
+        
+        1.3.0
+        -----
+        
+        * Restructured library to include pins/main code in Pibrella package
+        * Fix to notation support so notes are correctly played
+        
+        1.2.0
+        -----
+        
+        * Significant version bump to highlight launch to Production/Stable status
+        * Small tweak to allow use of with, ie: "with pibrella.light.red as red:"
+        
+        1.1.7
+        -----
+        
+        * Fixed buzzer to stop after playing melody
+        * Wrapped changed/pressed/released so they can be registered simultaneously
+        * Added "len" to pin collections, to support random.choice(pibrella.light)
+        * Added error if run without root
+        
+        1.1.6
+        -----
+        
+        * Populated LICENSE.txt
+        
+        1.1.5
+        -----
+        
+        * Renamed amber to yellow and added alias support for backwards-compatibility
+        * Added lights, inputs, outputs and pins as pluralalised aliases for light, input etc
+        * Tweaked how on/off/toggle calls to lights/outputs are handled during pulse/blink
+        
+        1.1.4
+        -----
+        
+        * Added pulse(), blink() and fade() to all outputs
+        
+        1.1.3
+        -----
+        
+        * Built-in asyncronous alarm sound! pibrella.buzzer.alarm()
+        * Replaced xrange with range
+        
+        1.1.2
+        -----
+        
+        * Added support for REV 1 Raspberry Pi
+        
+        1.1.1
+        -----
+        
+        * Added fade(from,to,duration) for lights
+        
+        1.1.0
+        -----
+        
+        * Removed *.all.* keyword, use pibrella.input.read() instead of pibrella.input.all.read()
+        * Added helper to list pins, try: pibrella.input in interactive shell
+        * Added ['name'] and [idx] support to pin collections, try: pibrella.input[0] pibrella.input['a']
+        * Added buzzer to pibrella.pin
+        * Added return values to most methods
+        
+        1.0.0
+        -----
+        
+        * Initial development/beta release
+        
+        
+Keywords: Raspberry Pi Pibrella
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware

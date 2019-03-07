@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Pibrella.egg-info/PKG-INFO
+Pibrella.egg-info/SOURCES.txt
+Pibrella.egg-info/dependency_links.txt
+Pibrella.egg-info/requires.txt
+Pibrella.egg-info/top_level.txt
+pibrella/__init__.py
+pibrella/pins.py

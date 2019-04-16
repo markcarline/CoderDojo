@@ -1,8 +1,0 @@
-Cloned from:
-
-git clone http://github.com/pimoroni/pibrella
-
-To install:
-
-cd pibrella/library
-sudo python setup.py install

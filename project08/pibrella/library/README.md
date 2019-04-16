@@ -1,1 +1,0 @@
-#Pibrella Pure Python Library

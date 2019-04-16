@@ -1,5 +1,5 @@
 echo Removing old CoderDojo folder ...
-rm -r -f /home/pi/CoderDojo
+sudo rm -r -f /home/pi/CoderDojo
 
 echo Restore backup of /home/pi/BACKUP as /home/pi/CoderDojo
 cp -r /home/pi/BACKUP /home/pi/CoderDojo

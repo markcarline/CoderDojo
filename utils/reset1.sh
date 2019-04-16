@@ -1,5 +1,5 @@
 echo Removing old CoderDojo folder ...
-rm -r -f /home/pi/CoderDojo
+sudo rm -r -f /home/pi/CoderDojo
 
 echo Pulling down latest copy of CoderDojo from github ...
 git clone https://github.com/markcarline/CoderDojo /home/pi/CoderDojo

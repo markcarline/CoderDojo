@@ -1,3 +1,6 @@
+echo Changing to pi home
+cd /home/pi
+
 echo Removing old CoderDojo folder ...
 sudo rm -r -f /home/pi/CoderDojo
 

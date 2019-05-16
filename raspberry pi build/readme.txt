@@ -18,7 +18,7 @@ Language: British English
 Timezone: London
 Password: password
 Accept screen (no need to tick black border)
-Connect to wifi
+Connect to wifi & set country code = UK
 Next to check and update software, rebooted
 
 4) 2nd boot:
@@ -27,7 +27,6 @@ Under Preferences / Raspberry PI Configuration:
 - Enable:
 -- Camera
 -- SSH
--- VNC
 -- SPI - Used by pi-topHUB v1 / GPIO pins 19, 21, 23 and 26 for SPI communication
 -- I2C - Used by pi-topSPEAKER v1 / GPIO pins 3 and 5 for I2C communication
 Reboot

@@ -38,13 +38,18 @@ sudo apt install pt-devices
 cd /home/pi
 git clone https://github.com/markcarline/CoderDojo CoderDojo
 
-7) Setup some libraries for project05 - fourletter-phat
+7) Set desktop image
+/home/pi/CoderDojo/utils/updatedesktop.sh
++ set desktop wallpaper to "codeclub.jpg" should be in folder:
+/usr/share/rpd-wallpaper
+
+8) Setup some libraries for project05 - fourletter-phat
 NOTE: See notes from: https://github.com/pimoroni/fourletter-phat
 curl https://get.pimoroni.com/fourletterphat | bash
 
-8) Setup some libraries for project08 - pibrella:
+9) Setup some libraries for project08 - pibrella:
 NOTE: See notes from: https://github.com/pimoroni/pibrella
 curl -sS get.pimoroni.com/pibrella | bash
 
-9) Created backup of "00" MicroSD card image as:
+10) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v4-01.img

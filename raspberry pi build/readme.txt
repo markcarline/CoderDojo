@@ -43,16 +43,21 @@ git clone https://github.com/markcarline/CoderDojo CoderDojo
 + set desktop wallpaper to "codeclub.jpg" should be in folder:
 /usr/share/rpd-wallpaper
 
-8) Setup some libraries for project05 - fourletter-phat
+8) Restore example "3 door" world in minecraft
+cd /home/pi/CoderDojo/utils
+./resetworld.sh
++ start minecraft and check we only see one world and that world has three doors
+
+9) Setup some libraries for project05 - fourletter-phat
 NOTE: See notes from: https://github.com/pimoroni/fourletter-phat
 curl https://get.pimoroni.com/fourletterphat | bash
 
-9) Setup some libraries for project08 - pibrella:
+10) Setup some libraries for project08 - pibrella:
 NOTE: See notes from: https://github.com/pimoroni/pibrella
 curl -sS get.pimoroni.com/pibrella | bash
 
-10) Change a few minor tweeks:
+11) Change a few minor tweeks:
 - Start "file manager" and change view perferences so that "view as detailed list"
 
-11) Created backup of "00" MicroSD card image as:
+12) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v4-01.img

@@ -58,6 +58,7 @@ curl -sS get.pimoroni.com/pibrella | bash
 
 11) Change a few minor tweeks:
 - Start "file manager" and change view perferences so that "view as detailed list"
+- Open any text file and enable "word wrap"
 
 12) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v4-01.img

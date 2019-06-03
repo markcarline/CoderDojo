@@ -51,5 +51,8 @@ curl https://get.pimoroni.com/fourletterphat | bash
 NOTE: See notes from: https://github.com/pimoroni/pibrella
 curl -sS get.pimoroni.com/pibrella | bash
 
-10) Created backup of "00" MicroSD card image as:
+10) Change a few minor tweeks:
+- Start "file manager" and change view perferences so that "view as detailed list"
+
+11) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v4-01.img

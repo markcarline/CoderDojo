@@ -1,0 +1,1 @@
+sudo mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak

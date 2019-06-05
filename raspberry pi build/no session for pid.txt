@@ -1,0 +1,15 @@
+No session for pid 711
+
+711 turns out to be:
+
+lxpolkit
+
+Seen 1:
+https://github.com/meefik/linuxdeploy/issues/978
+
+fix:
+
+sudo rm /etc/xdg/autostart/lxpolkit.desktop
+or
+sudo mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
+

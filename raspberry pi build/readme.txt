@@ -56,9 +56,15 @@ curl https://get.pimoroni.com/fourletterphat | bash
 NOTE: See notes from: https://github.com/pimoroni/pibrella
 curl -sS get.pimoroni.com/pibrella | bash
 
-11) Change a few minor tweeks:
+11) Add MU for using the BBC Microbit
+sudo apt-get install mu -y
+NOTE: Taken from notes from here:
+https://projects.raspberrypi.org/en/projects/getting-started-with-microbit
+
+
+12) Change a few minor tweeks:
 - Start "file manager" and change view perferences so that "view as detailed list"
 - Open any text file and enable "word wrap"
 
-12) Created backup of "00" MicroSD card image as:
+13) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v4-01.img

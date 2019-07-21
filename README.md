@@ -40,4 +40,6 @@ https://shop.pimoroni.com/products/four-letter-phat
 
 - project06 - Ceaser Cipher
 
+- project07 - makeymakey soundboard
 
+- project08 - pibrella - short session

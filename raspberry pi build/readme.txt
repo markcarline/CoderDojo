@@ -1,12 +1,13 @@
 Installation Notes for Raspberry Pis used for CoderDojo Sessions.
 
-1) Downloaded image "2019-04-08-raspbian-stretch-full.img" from:
+1) Downloaded image "2019-09-26-raspbian-buster-full.img" from:
 https://www.raspberrypi.org/downloads/raspbian/
 
-Raspbian Stretch with desktop and recommended software
-Version:April 2019
-Release date:2019-04-08
-Kernel version:4.14
+Raspbian Buster with desktop and recommended software
+Version:September 2019
+Release date:2019-09-26
+Kernel version:4.19
+Size:2541 MB
 
 2) Burnt IMG file to Master 8GB MicroSD card labeled as "00"
 SanDisk Ultra
@@ -18,8 +19,8 @@ Language: British English
 Timezone: London
 Password: password
 Accept screen (no need to tick black border)
-Connect to wifi & set country code = UK
-Next to check and update software, rebooted
+Connect to CODERDOJO wifi & set country code = UK
+Next to check and update software (took about an hour), rebooted
 
 4) 2nd boot:
 Under Preferences / Raspberry PI Configuration:
@@ -31,40 +32,51 @@ Under Preferences / Raspberry PI Configuration:
 -- I2C - Used by pi-topSPEAKER v1 / GPIO pins 3 and 5 for I2C communication
 Reboot
 
-5) Add extra components to support PiTop hardware:
-sudo apt install pt-devices
+5) Additional config + clean up via:
+sudo raspi-config
+NOTE: Expand root file system via:
+- Advanced options - expand root file system
+NOTE: File system needs clean (on a 8gb card this should give us 1Gb free on root) up so run:
+sudo apt-get clean
 
-6) added the CoderDojo repository via:
+6) Add extra components to support PiTop hardware:
+sudo apt install pt-devices
+NOTE: "y" to install additional packages
+
+7) added the CoderDojo repository via:
 cd /home/pi
 git clone https://github.com/markcarline/CoderDojo CoderDojo
 
-7) Set desktop image
+8) Set desktop image
 /home/pi/CoderDojo/utils/updatedesktop.sh
 + set desktop wallpaper to "codeclub.jpg" should be in folder:
 /usr/share/rpd-wallpaper
 
-8) Restore example "3 door" world in minecraft
+9) Restore example "3 door" world in minecraft
 cd /home/pi/CoderDojo/utils
 ./resetworld.sh
 + start minecraft and check we only see one world and that world has three doors
 
-9) Setup some libraries for project05 - fourletter-phat
+10) Setup some libraries for project05 - fourletter-phat
 NOTE: See notes from: https://github.com/pimoroni/fourletter-phat
 curl https://get.pimoroni.com/fourletterphat | bash
+NOTE: "y" to I2C, expand filesystem and full installation
 
-10) Setup some libraries for project08 - pibrella:
+11) Setup some libraries for project08 - pibrella:
 NOTE: See notes from: https://github.com/pimoroni/pibrella
 curl -sS get.pimoroni.com/pibrella | bash
 
-11) Add MU for using the BBC Microbit
+12) Add MU for using the BBC Microbit
 sudo apt-get install mu -y
 NOTE: Taken from notes from here:
 https://projects.raspberrypi.org/en/projects/getting-started-with-microbit
+NOTE: As we're now on Buster and using the full image MU is preinstalled and install is not needed - Skipping step.
 
-
-12) Change a few minor tweeks:
-- Start "file manager" and change view perferences so that "view as detailed list"
+13) Change a few minor tweeks:
+- Start "file manager" and change
+  a) view perferences so that "view as detailed list"
+  b) Preferences menu + Display + Always show full file names
 - Open any text file and enable "word wrap"
 
-13) Created backup of "00" MicroSD card image as:
-CoderDoJo_Build_v4-01.img
+14) Created backup of "00" MicroSD card image as:
+CoderDoJo_Build_v5-01.img

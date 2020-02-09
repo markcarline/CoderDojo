@@ -83,3 +83,13 @@ NOTE: As we're now on Buster and using the full image MU is preinstalled and ins
 
 14) Created backup of "00" MicroSD card image as:
 CoderDoJo_Build_v6-01.img
+
+-----
+
+Future use:
+
+15) Remove unused packages to free up disk space:
+https://scribles.net/free-up-sd-card-space-on-raspberry-pi/
+ie:
+sudo apt-get purge wolfram-engine
+

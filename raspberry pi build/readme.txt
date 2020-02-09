@@ -1,13 +1,14 @@
 Installation Notes for Raspberry Pis used for CoderDojo Sessions.
 
-1) Downloaded image "2019-09-26-raspbian-buster-full.img" from:
+1) Downloaded image "2020-02-05-raspbian-buster-full.img" from:
 https://www.raspberrypi.org/downloads/raspbian/
 
 Raspbian Buster with desktop and recommended software
-Version:September 2019
-Release date:2019-09-26
+Image with desktop and recommended software based on Debian Buster
+Version:February 2020
+Release date:2020-02-05
 Kernel version:4.19
-Size:2541 MB
+Size:2532 MB
 
 2) Burnt IMG file to Master 8GB MicroSD card labeled as "00"
 SanDisk Ultra
@@ -20,7 +21,7 @@ Timezone: London
 Password: password
 Accept screen (no need to tick black border)
 Connect to CODERDOJO wifi & set country code = UK
-Next to check and update software (took about an hour), rebooted
+Next to check and update software (took about 5 mins), rebooted
 
 4) 2nd boot:
 Under Preferences / Raspberry PI Configuration:
@@ -59,11 +60,13 @@ cd /home/pi/CoderDojo/utils
 
 10) Setup some libraries for project05 - fourletter-phat
 NOTE: See notes from: https://github.com/pimoroni/fourletter-phat
+cd /home/pi
 curl https://get.pimoroni.com/fourletterphat | bash
 NOTE: "y" to I2C, expand filesystem and full installation
 
 11) Setup some libraries for project08 - pibrella:
 NOTE: See notes from: https://github.com/pimoroni/pibrella
+cd /home/pi
 curl -sS get.pimoroni.com/pibrella | bash
 
 12) Add MU for using the BBC Microbit
@@ -79,4 +82,4 @@ NOTE: As we're now on Buster and using the full image MU is preinstalled and ins
 - Open any text file and enable "word wrap"
 
 14) Created backup of "00" MicroSD card image as:
-CoderDoJo_Build_v5-01.img
+CoderDoJo_Build_v6-01.img

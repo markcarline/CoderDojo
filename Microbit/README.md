@@ -1,3 +1,3 @@
-compass_v1.py - This is a compass which uses the clock face and halo to give a bearing
-
-
+## Compass Scripts
+compass_direction.py  - script which uses halo and clockface for direction  
+compass_strength.py   - script where halo flashes faster based on field strength
